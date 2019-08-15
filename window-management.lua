@@ -78,6 +78,11 @@ end
 --            ** Keybinding configurations locate at bottom **          --
 -- -----------------------------------------------------------------------
 
+module.fullscreenWindow = function ()
+  local this = windowMeta.new()
+  this.window:setFullScreen(not this.window:isFullScreen())
+end
+
 module.maximizeWindow = function ()
   local this = windowMeta.new()
   hs.grid.maximizeWindow(this.window)

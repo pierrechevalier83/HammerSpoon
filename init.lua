@@ -8,7 +8,7 @@
 --                         ** Something Global **                       --
 -- -----------------------------------------------------------------------
 -- Uncomment this following line if you don't wish to see animations
--- hs.window.animationDuration = 0
+hs.window.animationDuration = 0
 
 -- -----------------------------------------------------------------------
 --                            ** Requires **                            --
